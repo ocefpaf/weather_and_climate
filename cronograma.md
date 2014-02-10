@@ -49,7 +49,7 @@ Bibliografia complementar:
 --------------------------
 * WAINER, Ilana (Coord.) et al. Atlas climatológico: região Atlântico Sul.  São Paulo: Petrobrás , 2012. 82 p. ISBN 9788564586215
 
-* NATIONAL WEATHER SERVICE. Marine surface wearther observations. United States of America: National Oceanic and Atmospheric Administration - NOAA, 2002. 154 p. (Obs erving Handbook
+* NATIONAL WEATHER SERVICE. Marine surface wearther observations. United States of America: National Oceanic and Atmospheric Administration - NOAA, 2002. 154 p. (Obs erving Handbook)
 
 * HAZIN, Fabio Hissa Vieira. Meteorologia e sensoriamento remoto, oceanografia física, oceanografia química e oceanografia geológica. Fortaleza: Martins & Cordeiro,2009. 245 p. (Programa Revizee - Score Nordeste) ISBN 9788599121108
 
