@@ -7,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.github.io/
 # created:  20-Aug-2013
-# modified: Wed 23 Oct 2013 04:45:34 PM BRST
+# modified: Mon 10 Feb 2014 05:23:01 PM BRST
 #
 # obs:
 #
@@ -53,6 +53,7 @@ header = r"""% Packages.
 \usepackage{multimedia}
 \usepackage[utf8]{inputenc}
 \usepackage{amssymb,amsmath}
+\usepackage{longtable,booktabs}
 
 % Partial.
 \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % partial derivatives
