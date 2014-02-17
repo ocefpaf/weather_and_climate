@@ -5,9 +5,9 @@ date: '10-Fevereiro-2014'
 title: Cronograma
 ...
 
-<!-- pandoc --latex-engine=xelatex --mathjax --smart --normalize \
-            --standalone --highlight-style=pygments --webtex --from markdown \
-            cronograma.md --to latex --output cronograma.pdf -->
+<!--
+pandoc --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown planning.md --to latex --output cronograma.pdf
+-->
 
 Plano de Aula
 =============
@@ -64,17 +64,17 @@ Aulas:
 | 04   | 2014-02-24    | Tópico 3       |                 |
 | 05   | 2014-03-10    | Tópico 4       |                 |
 | 06   | 2014-03-17    | Tópico 5       |                 |
-| 07   | 2014-03-24    | Tópico 6       |                 |
-| 08   | 2014-03-31    | Tópico 7       |                 |
-| 09   | 2014-04-07    | Tópico 1-7     | Revisão P1      |
-| 10   | 2014-04-14    | Tópico 1-7     | P1              |
+| 07   | 2014-03-24    | Tópico 1-5     | P1_1            |
+| 08   | 2014-03-31    | Tópico 6       |                 |
+| 09   | 2014-04-07    | Tópico 7       |                 |
+| 10   | 2014-04-14    | Tópico 1-7     | P1_2            |
 | 11   | 2014-04-28    | Tópico 9       |                 |
 | 12   | 2014-05-05    | Tópico 10      |                 |
-| 13   | 2014-05-12    | Tópico 10      |                 |
+| 13   | 2014-05-12    | Tópico 9-10    | P2_1            |
 | 14   | 2014-05-19    | Tópico 11      |                 |
 | 15   | 2014-05-26    | Tópico 12      |                 |
 | 16   | 2014-06-02    | Tópico 1-13    | T1 (Seminários) |
-| 17   | 2014-06-09    | Tópico 8-12    | P2              |
+| 17   | 2014-06-09    | Tópico 8-12    | P2_2            |
 | 18   | 2014-06-16    | Tópico 1-12    | Revisão PA      |
 | 19   | 2014-06-30    | Tópico 1-12    | PA              |
 
