@@ -18,7 +18,8 @@ metro do chão?
 
 ![Levantar](./figures/expanding_lift.png "Levantando a corda.")
 
-<!-- corda = $2 \pi r \therefore$ corda + extra = $2 \pi r + 2 \pi 1$ -->
+**Resposta:**
+corda = $2 \pi r \therefore$ corda + extra = $2 \pi r + 2 \pi 1$
 
 2) O Homem que calculava (Dupla)
 ================================
@@ -55,7 +56,7 @@ E, concluiu com segurança e serenidade:
 
 **Pergunta:** Como se explica tal fato?
 
-<!--**Resposta:**
+**Resposta:**
 O total de 35 camelos, de acordo com o enunciado da história, deve ser
 repartido, pelos três herdeiros, do seguinte modo:
 - O mais velho deveria receber a metade da herança, isto é, 17 camelos e meio.
@@ -96,7 +97,7 @@ O todo, no caso, é a herança ainda dos 35 camelos.
 Conclusão feita a partilha, de acordo com o testador, ainda haveria uma sobra
 de 1 e 17/18.  Beremiz, com o artifício empregado, distribuiu os 17/18 pelos
 três herdeiros (aumentando acada um) e ficou com a parte inteira da fração
-excedente.-->
+excedente.
 
 
 3) Dinâmica de Grupo (4-5)
@@ -128,22 +129,22 @@ O brasileiro é vizinho da casa azul, O proprietário do carro Ford bebe
 cerveja, O proprietário da vaca é vizinho do dono do Cadilac, O proprietário
 do carro Chevrolet é vizinho do dono do cavalo.
 
-<!--(Pode ser que algum grupo consiga montar uma resposta diferente desta, o
+(Pode ser que algum grupo consiga montar uma resposta diferente desta, o
 importante é que todos os itens relacionados não se repitam, por exemplo ter
 dois animais na mesma casa, etc.  E também que a ordem não interfira aos
 detalhes como o proprietário da vaca ser vizinho do dono do Cadilac, ou então,
 a casa verde é vizinha da casa direita, cinza)-->
-<!--                                                                    -->
-<!--Resposta Sugerida:                                                  -->
-<!--==================                                                  -->
-<!--                                                                    -->
-<!--| 801       | 803        | 805         | 807        | 809        |  -->
-<!--|:---------:|:----------:|:-----------:|:----------:|:----------:|  -->
-<!--| Whisky    | Cerveja    | Pepsi       | Coca-cola  | Café       |  -->
-<!--| Mercedez  | Ford       | Volkswagem  | Cadilac    | Chevrolet  |  -->
-<!--| Peruano   | Argentino  | Mexicano    | Chileno    | Brasileiro |  -->
-<!--| Gato      | Cachorro   | Coelho      | Cavalo     | Vaca       |  -->
-<!--| Verde     | Cinza      | Vermelha    | Azul       | Rosa       |  -->
+
+Resposta Sugerida:
+==================
+
+| 801       | 803        | 805         | 807        | 809        |
+|:---------:|:----------:|:-----------:|:----------:|:----------:|
+| Whisky    | Cerveja    | Pepsi       | Coca-cola  | Café       |
+| Mercedez  | Ford       | Volkswagem  | Cadilac    | Chevrolet  |
+| Peruano   | Argentino  | Mexicano    | Chileno    | Brasileiro |
+| Gato      | Cachorro   | Coelho      | Cavalo     | Vaca       |
+| Verde     | Cinza      | Vermelha    | Azul       | Rosa       |
 
 
 Tópicos para seminário
