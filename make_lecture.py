@@ -7,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.github.io/
 # created:  20-Aug-2013
-# modified: Mon 17 Feb 2014 03:53:17 PM BRT
+# modified: Wed 19 Feb 2014 09:55:10 AM BRT
 #
 # obs: Uses latexmk, pdflatex adn pandoc.
 #
@@ -152,7 +152,7 @@ def compile_tex(lecture, d_type):
 
 def compile_md(homework='homework.md'):
     OPTS = ['--mathjax', '--smart', '--normalize', '--standalone',
-            '--highlight-style=pygments']
+            '--highlight-style=pygments', '--latex-engine=xelatex',]
     FROM = ['--from', 'markdown', homework]
     TO = ['--to', 'latex', '--output', '%s_homework.pdf' % fname]
     cmd = ['/home/filipe/bin/pandoc'] + OPTS + FROM + TO
@@ -170,7 +170,7 @@ if __name__ == '__main__':
     DIR = os.path.split(DIRECTORY)[-1]
     COMP = args.get('--compile')
 
-    fname = '%s_OC_%s' % (TODAY, DIR)  # Output file names.
+    fname = '%s_%s' % (TODAY, DIR)  # Output file names.
 
     if COMP == 'slides':
         compile_tex('%s/lecture.tex' % DIRECTORY, d_type='slides')
