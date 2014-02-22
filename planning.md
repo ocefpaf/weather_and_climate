@@ -6,7 +6,7 @@ title: Cronograma
 ...
 
 <!--
-pandoc --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown planning.md --to latex --output cronograma.pdf
+pandoc --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown planning.md --to latex --output lecture_plan.pdf
 -->
 
 Plano de Aula
