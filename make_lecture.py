@@ -7,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.github.io/
 # created:  20-Aug-2013
-# modified: Wed 19 Feb 2014 09:55:10 AM BRT
+# modified: Sat 22 Feb 2014 05:18:30 PM BRT
 #
 # obs: Uses latexmk, pdflatex adn pandoc.
 #
@@ -170,7 +170,7 @@ if __name__ == '__main__':
     DIR = os.path.split(DIRECTORY)[-1]
     COMP = args.get('--compile')
 
-    fname = '%s_%s' % (TODAY, DIR)  # Output file names.
+    fname = '%s_CW_%s' % (TODAY, DIR)  # Output file names.
 
     if COMP == 'slides':
         compile_tex('%s/lecture.tex' % DIRECTORY, d_type='slides')
