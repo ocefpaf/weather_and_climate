@@ -170,7 +170,7 @@ if __name__ == '__main__':
     DIR = os.path.split(DIRECTORY)[-1]
     COMP = args.get('--compile')
 
-    fname = '%s_CW_%s' % (TODAY, DIR)  # Output file names.
+    fname = '%s_%s_CW' % (DIR, TODAY)  # Output file names.
 
     if COMP == 'slides':
         compile_tex('%s/lecture.tex' % DIRECTORY, d_type='slides')
