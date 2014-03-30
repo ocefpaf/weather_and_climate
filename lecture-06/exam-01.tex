@@ -1,0 +1,187 @@
+% Style.
+\documentclass[letterpaper,portuguese,12pt,pdftex]{exam}
+
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage[left=2.5cm,top=3cm,right=2.5cm]{geometry}
+
+% Portuguese.
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{textcomp}
+
+% Font.
+\usepackage{lmodern}
+
+% Figures.
+\usepackage{epsf,epsfig}
+
+% Bibtex and extras.
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[bookmarks=false,colorlinks=true,urlcolor={green},linkcolor={green},pdfstartview={XYZ null null 1.22}]{hyperref}
+
+% Math.
+\usepackage{amssymb,amsmath}
+\usepackage{mathtools}
+\everymath{\displaystyle}
+
+% Exam.
+\addpoints
+\printanswers
+% \noprintanswers
+\usepackage{color}
+\definecolor{SolutionColor}{rgb}{0.8,0.9,1}
+\shadedsolutions
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\par\noindent}
+\pagestyle{headandfoot}
+\footer{}{Página \thepage\ de \numpages}{}
+\boxedpoints
+\pointsinrightmargin
+\pointpoints{ponto}{pontos}
+\hqword{Questão}
+\hpword{Pontos}
+\hsword{Nota}
+% \qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill}
+
+% User commands.
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+
+% PDF metadata.
+\pdfinfo{% hyperref overrides this
+  /Title    (Prova 01 -- Climatologia e Meteorologia)
+  /Author   (Filipe Fernandes)
+  /Creator  (Filipe Fernandes)
+  /Producer (Filipe Fernandes)
+  /Subject  (prova)
+  /Keywords (prova, oceanografia)
+}
+
+% Front page.
+\title{Prova 01 -- Climatologia e Meteorologia}
+\author{Prof. Filipe Fernandes}
+\date{24-Mar-2014}
+
+\begin{document}
+\maketitle
+\doublespacing
+
+\vspace{1cm}
+\hbox to \textwidth{Nome e número de matrícula:\enspace\hrulefill}
+\vspace{1cm}
+
+\begin{minipage}{.8\textwidth}
+Esse documento incluí \numquestions\ questões. O número total de pontos é \numpoints.
+\vspace{1cm}
+
+A prova segue o Acordo Ortográfico da Língua Portuguesa de 1990 (em vigor no
+início de 2009).  Erros de ortografia e gramática serão descontados da sua nota
+final.
+
+\vspace{1cm}
+
+A prova deve ser feita individualmente e sem consulta.  O aluno deverá usar
+{\bf caneta} (preta ou azul) para responder as questões -- qualquer questão
+respondida à lápis não será considerada na hora da correção!  Coloque seu nome
+em {\bf todas} as folhas e numere as mesmas informando número total de folhas
+utilizadas (Ex.: 1/4, 2/4, 3/4, 4/4.)
+
+\vspace{1cm}
+
+Leia atentamente todas as questões: a interpretação faz parte da prova e dúvidas
+serão esclarecidas apenas após o término da mesma.
+
+\end{minipage}
+
+\newpage
+
+\begin{questions}
+
+\question[2]
+É comum ouvir a seguinte afirmativa "O clima esta chuvoso e o tempo
+subtropical."  Para evitar erros como esse explique as diferenças e/ou
+semelhanças entre os pares de conceitos abaixo.  (Dê exemplos quando for
+adequado.)
+
+\begin{itemize}
+  \item[a)] Tempo vs Clima.
+  \item[c)] Tempo vs Intemperismo.
+  \item[b)] Paleoclima vs Clima vs Climatologia.
+\end{itemize}
+
+\question[2\half]
+Descreva como se estabelece o padrão médio da variação meridional
+(latitudinal) da temperatura no globo.  Escolha pelo menos duas anomalias que
+contradizem a sua resposta acima e explique. (Dica: Use a figura abaixo como
+guia.)
+
+\begin{center}
+   \includegraphics[scale=0.55]{../lecture-04/figures/latitude.png}
+\end{center}
+
+\question[3]
+Esquematize e explique como seria a circulação dos ventos na Troposfera
+caso o planeta Terra {\bf não} girasse no próximo eixo.  Faça um paralelo com a
+circulação que realmente observamos.
+
+\question[2\half]
+Como determinamos as origens das massas de ar?  (Comente sobre as variáveis
+necessárias para descrevê-las.)
+
+\question[1\half]
+A Figura abaixo representa a distribuição das massas de ar no Brasil durante
+o Verão.  Sabendo que as massas de origem oceânica e a Equatorial Continental
+são quentes e úmidas, comente como seria o clima esperado nas regiões Norte e
+Nordeste do Brasil.
+
+\begin{center}
+  \includegraphics[scale=1]{../lecture-04/figures/massa_de_ar-verao.png}
+\end{center}
+
+\question[2]
+A ``friagem'' consiste na queda brusca de temperatura na Amazônia Ocidental.
+Sobre esse fenômeno pode-se afirmar que:
+
+\begin{itemize}
+  \item[a)] O relevo baixo de planície facilita a incursão de massa e de ar
+            frio que atinge a Amazônia.
+  \item[b)] A massa de ar responsável pela ocorrência de friagem é a tropical
+            atlântica.
+  \item[c)] A friagem ocorre no inverno.
+\end{itemize}
+
+De acordo com as afirmativas, assinale a alternativa correta.
+
+\begin{itemize}
+  \item[a)] Somente o item (a) está correto.
+  \item[b)] Os itens (b) e (c) estão corretos.
+  \item[c)] Os itens (a) e (b) estão corretos
+  \item[d)] Os itens (a) e (c) estão corretos
+  \item[e)] Todos os itens estão corretos
+\end{itemize}
+
+
+\question[2]
+Imagine uma destruição da floresta amazônica hipotética onde todas as
+árvores foram cortadas.  Qual destas consequências climáticas parece ser a
+mais provável?
+\begin{itemize}
+  \item[a)] Aumento dos índices pluviométricos e nas médias térmicas.
+  \item[b)] Diminuição dos ventos, especialmente dos alísios do hemisfério Sul.
+  \item[c)] Diminuição das chuvas, já que a maior parte da umidade atmosférica da região se deve à evapotranspiração das plantas.
+  \item[d)] Diminuição das nuvens e aumento na velocidade dos ventos pela ausência de obstáculos no seu caminho.
+  \item[e)] Aumento das precipitações e diminuição da temperatura.
+\end{itemize}
+
+\question[2]
+Você foi contratado pela empresa ACME para avaliar terrenos para a
+futura construção de uma represa de reserva de água.  (Uma tentativa de acabar
+com o racionamento de água que a região de São Paulo passa no momento.)
+
+Cite pelo menos 3 fatores {\bf Climáticos--regionais} que te levariam a
+escolher um terreno apropriado.
+
+\end{questions}
+
+\end{document}
