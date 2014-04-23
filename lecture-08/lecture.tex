@@ -1,0 +1,394 @@
+% Title page.
+\title[Aula 08]{Climatologia e Meteorologia}
+\subtitle{Interpretação de imagens de satélites}
+\author[Filipe Fernandes]{Filipe P. A. Fernandes}
+\institute[unimonte]{Centro Universitário Monte Serrat}
+\date[Abril 2014]{7 de Abril 2014}
+
+\logo{\includegraphics[scale=0.15]{../common/university_logo.png}}
+
+\begin{document}
+
+% The title page frame.
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\section*{Outline}
+\begin{frame}
+\tableofcontents
+\end{frame}
+
+\section{Interpretação de imagens de satélites}
+
+\subsection{Sensoriamento Remoto}
+
+\begin{frame}
+\frametitle{Sensoriamento Remoto}
+  \begin{block}{Lillesand \& Kiefer (1987)}
+    ``... a ciência e arte de receber informações sobre um objeto, uma área ou
+    fenômeno pela análise dos dados obtidos de uma maneira tal que não
+    haja contato direto com este objeto, esta área ou este fenômeno''
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Satélites}
+  \begin{itemize}[<+-| alert@+>]
+    \item Órbita Polar;
+    \item Órbita Geo-estacionária
+    \item Órbita Equatorial
+    \item Observação passiva
+    \item Observação ativa
+    \item Resolução: Espacial, Temporal, Espectral, Radiométrica.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Satélites}
+  \begin{itemize}[<+-| alert@+>]
+    \item Medições em comprimentos de onda específicos: uso de filtros;
+    \item Intervalo espectral: canais ou bandas;
+    \item Grande parte dos satélites meteorológicos: visível, infravermelho e
+          canal do vapor d'água
+    \item Alguns têm canais adicionais desde o ultravioleta (100 a 400 nm) às
+          microondas (0,15 a 6,0 cm ou 200 a 5 GHz)
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Comprimentos de Ondas}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/wavelength.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Satélites}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/satelites.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Observações}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/oberservacoes.png}
+  \end{center}
+\end{frame}
+
+
+\subsection{Satélites Meteorológicos}
+\begin{frame}
+\frametitle{Imagens}
+  \begin{block}{}
+  Cobertura de nuvens:\\
+  Desde a primeira imagem de satélite até os dias de hoje é a característica
+  mais marcante na imagem.
+  \end{block}
+  \pause
+  \begin{block}{}
+    Meteorologista previsor:\\
+    Uso principal é previsão de tempo, a análise em geral se limita ao estudo
+    da cobertura de nuvens.
+  \end{block}
+\end{frame}
+
+
+\subsection{Análise de Imagens}
+\begin{frame}
+\frametitle{Nuvens}
+  \begin{itemize}[<+-| alert@+>]
+    \item Nuvens podem parecer aleatórias tanto na forma quanto na distribuição.
+    \item Entretanto, elas se formam como o resultado de interações específicas
+          entre diferentes fatores meteorológicos.
+    \item Nuvens que se formam sob condições similares podem ser classificadas
+          em categorias individuais com padrões distintos nas imagens de
+          satélites.
+    \item Ao conhecer tais padrões, é possível identificar os tipos de nuvens
+          presentes em uma imagem de satélite.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Nuvens}
+  \begin{itemize}[<+-| alert@+>]
+    \item Refletância de nuvens: a partir da qual se pode inferir sua
+          profundidade e composição (se água ou gelo)
+    \item Textura: Lisa ou fibrosa.
+    \item Forma dos elementos: Regular ou não.
+    \item Padrão dos elementos: Associado com a topografia, fluxo de ar,
+          cisalhamento vertical e horizontal do vento.
+    \item Tamanho.
+    \item Estrutura vertical: A presença de sombras abaixo das nuvens por
+          exemplo.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Análise de imagens}
+  \begin{itemize}[<+-| alert@+>]
+    \item Deve ser acompanhada de outras informações:
+    \begin{enumerate}
+      \item Data e hora da imagem
+      \item Área geográfica coberta
+      \item Escala de cinza utilizada
+      \item Outros dados observacionais e cartas sinóticas
+    \end{enumerate}
+    \item Continuidade no tempo: análise e comparação de sequência de imagens
+          -- detectar mudanças e/ou confirmar a interpretação
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Análise de imagens}
+  \begin{itemize}[<+-| alert@+>]
+    \item Comparação de imagens de diferentes canais:
+    \item Em geral, a informação não é redundante, mas complementar.
+    \item Ajuda a remover incertezas ou ambiguidades na interpretação dos
+          processos e a distinguir características de nuvens, fumaça, e da
+          superfície mais facilmente.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Entretanto...}
+  \begin{block}{}
+    Observações em superfície ainda são fundamentais para a boa análise da evolução do tempo.
+  \end{block}
+  \pause
+  \begin{block}{}
+    Os produtos de satélites representam ferramenta adicional para interpretar
+    e acompanhar as mudanças observadas na atmosfera.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Visível}
+  \begin{itemize}[<+-| alert@+>]
+    \item Em geral, é a imagem com maior resolução espacial.
+    \item Radiação solar refletida pela superfície e atmosfera (só durante o
+          dia).
+    \item Áreas com tons mais claros indicam superfícies com alta refletância.
+    \item Nuvens espessas são brancas, nuvens intermediárias apresentam
+          coloração cinza.
+    \item Oceano é quase negro.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Visível -- 2014--03--26--17:45 GOES-13}
+  \begin{center}
+    \includegraphics[scale=0.2]{./figures/GOES/vis_1403261745G13I01.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Visível -- Nuvens}
+  \begin{itemize}[<+-| alert@+>]
+    \item Nuvens que aparecem mais brilhantes têm maior albedo: são mais altas,
+          possuem alto conteúdo de água ou gelo e têm gotículas menores.
+    \item Nuvens com coloração cinza são as rasas, com menor conteúdo de água
+          ou gelo e com gotas maiores.
+    \item Portanto, as Cb são facilmente observáveis ao passo que as cirrus não
+          podem ser vistas claramente.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Infravermelho}
+  \begin{block}{}
+    Canais mais frequentes: entre 1 e 30 $\mu$m.
+  \end{block}
+  \pause
+  \begin{block}{}
+    Nos satélites
+    meteorológicos: 10 a 12,5 $\mu$m -- janela atmosférica.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Infravermelho}
+  \begin{itemize}[<+-| alert@+>]
+    \item Radiação emitida pela superfície e atmosfera.
+    \item Proporcional à temperatura.
+    \item Superfície ou topo de nuvens.
+    \item Regiões com temperaturas menores aparecem mais brancas.
+    \item Superfícies mais quentes aparecem com tonalidades mais escuras.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Infravermelho}
+  \begin{itemize}[<+-| alert@+>]
+    \item Medições também à noite.
+    \item Cobertura contínua da evolução das nuvens num período de 24 horas.
+    \item No processamento de imagens:
+      \begin{enumerate}
+        \item Quanto maior a radiância medida, mais brilhante o pixel.
+        \item Padrão é invertido: quanto maior a radiância medida, mais escuro é
+              o pixel.
+        \item Nuvens são mais brancas e superfícies são escuras.
+      \end{enumerate}
+  \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Infravermelho}
+  \begin{itemize}[<+-| alert@+>]
+    \item Canal 4 (11 $\mu$m)
+    \item Quanto mais alto a nuvem mais frio será o topo;
+    \item Nuvens baixas que são mais quentes aparecem mais escuras nas imagens
+          do infravermelho;
+    \item Nuvens altas são mais frias e portanto mais brilhantes em imagens do
+          infravermelho.
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{IV -- 2014--03--26--17:45 GOES-13}
+  \begin{center}
+    \includegraphics[scale=0.2]{./figures/GOES/ir4_1403262345G13I04.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Infravermelho}
+  \begin{block}{}
+    Não é possível distinguir a textura das nuvens.
+  \end{block}
+  \pause
+  \begin{block}{}
+    Não é possível discriminar nuvens baixas de superfície oceânica ou nevoeiro
+    de superfície continental, devido ao baixo contraste térmico entre eles.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Vapor d'água}
+  \begin{itemize}[<+-| alert@+>]
+    \item Também disponível em qualquer hora do dia.
+    \item Banda de absorção do vapor d'água, centralizada em 6--7 $\mu$m.
+    \item Como o conteúdo de vapor d'água decresce com a altura, a maior
+          contribuição para a radiância medida pelo satélite é proveniente
+          dos níveis médios e altos da troposfera.
+    \item Regiões mais brilhantes apresentam alta umidade na alta troposfera
+    \item Regiões escuras são aquelas nas quais a alta
+          troposfera está muito seca.
+  \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Vapor d'água}
+  \begin{center}
+    \includegraphics[scale=0.2]{./figures/GOES/ir3_1403262045G13I03.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Vapor d'água}
+  \begin{center}
+    \includegraphics[scale=0.2]{./figures/GOES/ir3_1403272345G13I03.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Infravermelho vs Vapor d'água vs Visível}
+  \begin{block}{}
+    Imagens no visível e infravermelho auxiliam na análise e previsão do tempo a
+    partir das características das nuvens presentes nas imagens.
+  \end{block}
+  \pause
+  \begin{block}{}
+    Imagens no canal do vapor d'água podem ser utilizadas para observar padrões
+    de circulação de larga escala mesmo na ausência de nuvens!
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Microondas}
+  \begin{itemize}[<+-| alert@+>]
+    \item Radiação nessa região espectral é sensível a:
+      \begin{enumerate}
+        \item Precipitação.
+        \item Água ou gelo de nuvem.
+        \item Vapor d'água.
+        \item Umidade do solo.
+        \item Temperatura da superfície e da atmosfera.
+        \item Velocidade do vento à superfície do oceano.
+      \end{enumerate}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Microondas}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/Ike_microwave_1030z7Sep.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Leitura Extra}
+  \begin{block}{}
+    \url{http://pt.allmetsat.com/interpretacao.php}
+  \end{block}
+\end{frame}
+
+
+
+\subsection{Exemplos}
+\begin{frame}
+\frametitle{Exemplos}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/vis_ir4_nuvens_1.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemplos}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/vis_ir4_nuvens_2.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemplos}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/vis_ir4_nuvens_3.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemplos}
+  \begin{center}
+    \includegraphics[scale=0.5]{./figures/vis_ir4_nuvens_4.png}
+  \end{center}
+\end{frame}
+
+
+\end{document}
