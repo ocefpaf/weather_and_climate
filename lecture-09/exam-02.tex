@@ -1,0 +1,199 @@
+% Style.
+\documentclass[letterpaper,portuguese,12pt,pdftex]{exam}
+
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage[left=2.5cm,top=3cm,right=2.5cm]{geometry}
+
+% Portuguese.
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{textcomp}
+
+% Font.
+\usepackage{lmodern}
+
+% Figures.
+\usepackage{epsf,epsfig}
+
+% Bibtex and extras.
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[bookmarks=false,colorlinks=true,urlcolor={green},linkcolor={green},pdfstartview={XYZ null null 1.22}]{hyperref}
+
+% Math.
+\usepackage{amssymb,amsmath}
+\usepackage{mathtools}
+\everymath{\displaystyle}
+
+% Exam.
+\addpoints
+\printanswers
+\usepackage{color}
+\definecolor{SolutionColor}{rgb}{0.8,0.9,1}
+\shadedsolutions
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\par\noindent}
+\pagestyle{headandfoot}
+\footer{}{Página \thepage\ de \numpages}{}
+\boxedpoints
+\pointsinrightmargin
+\pointpoints{ponto}{pontos}
+\hqword{Questão}
+\hpword{Pontos}
+\hsword{Nota}
+% \qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill}
+
+% User commands.
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+
+% PDF metadata.
+\pdfinfo{% hyperref overrides this
+  /Title    (Prova 02 -- Climatologia e Meteorologia)
+  /Author   (Filipe Fernandes)
+  /Creator  (Filipe Fernandes)
+  /Producer (Filipe Fernandes)
+  /Subject  (prova)
+  /Keywords (prova, oceanografia)
+}
+
+% Front page.
+\title{Prova 02 -- Climatologia e Meteorologia}
+\author{Prof. Filipe Fernandes}
+\date{14-Abril-2014}
+
+\begin{document}
+\maketitle
+\doublespacing
+
+\hbox to \textwidth{Nome e número de matrícula:\enspace\hrulefill}
+\vspace{0.5cm}
+
+\begin{minipage}{.8\textwidth} % 35
+Esse exame incluí \numquestions\ questões. O número total de pontos é \numpoints.
+\vspace{1cm}
+{\small
+\begin{itemize}
+  \item Coloque seu nome em todas as folhas e numere as mesma colocando o
+        número total de folhas. (Ex.: 1/4, 2/4, 3/4 e 4/4.)
+  \item Coloque suas respostas apenas na folha de respostas (pode usar
+        as folhas da prova como rascunho).
+  \item Essa prova segue o Acordo Ortográfico da Língua Portuguesa de 1990 (em
+        vigor no início de 2009).  Erros de ortografia e gramática
+        serão descontados da sua nota final.
+  \item A prova deve ser feita individualmente e sem consulta.
+  \item Use caneta (preta ou azul) para responder as questões – qualquer questão
+        respondida à lápis não será considerada na hora da correção.
+  \item Leia atentamente todas as questões: a interpretação faz parte da prova.
+        Dúvidas serão esclarecidas apenas após o término da mesma.
+  \item Desligue e guarde o celular.  Celulares à vista serão recolhidos!
+\end{itemize}
+}
+\end{minipage}
+
+\newpage
+
+\begin{questions}
+
+  \question[5]
+    Sabemos que uma {\bf Frente Fria} (FF) é uma massa de ar frio avançando
+    sobre uma massa de ar quente.  Enquanto uma {\bf Frente Quente} (FQ) é uma
+    massa de ar quente avançando sobre uma massa de ar frio.
+
+    Dito isso, explique as diferenças quanto a formação de nuvens e a posição
+    das chuvas relativamente a posição da frente para ambos cenários de FF e FQ.
+
+    \begin{solution}
+      {\bf FF}: em geral produz nuvens do tipo Cúmulos Nimbus com chuvas na
+      região frontal ou logo à sua frente.\\
+
+      {\bf FQ}: produz quase todo o espectro de nuvens devido a FQ ``escalar'' a
+      massa de ar frio, assim gerando nuvens de baixas a altas enquanto o ar
+      quente ascende sobre o frio.  Em geral chove ao longo de todo o caminho
+      ascendente do ar quente e não apenas na região frontal.
+    \end{solution}
+
+  \question[2\half]
+    Explique o que está {\bf errado} na frase: ``O tornado chegou pelo oceano
+    atingindo toda a costa da Lousiana elevando o nível do mar e causando
+    chuvas torrenciais por 3 dias.''
+
+    \begin{solution}
+      Tornados são fenômenos de pequena escala (metros/minutos), provavelmente
+      o fenômeno em questão é um furacão.
+    \end{solution}
+
+
+  \question[2\half]
+    Você foi encarregado de planejar a aquisição remota de dados de chuva e
+    relâmpagos para a {\bf cidade de São Paulo}.  A sua disposição está um
+    moderno sensor de micro-ondas que será instalado no mais novo satélite
+    meteorológico BRAZUCA-1.  Os engenheiros aeroespaciais do INPE planejam uma
+    {\bf Órbita Polar} para esse satélite.  Você concorda?  Argumente contra ou
+    a favor desse plano.
+
+    \begin{solution}
+      Para melhor observar a cidade de São Paulo seria recomendado um satélite
+      de órbita geo-estacionária e não polar.  Garantindo assim altas resolução
+      temporal e espacial na Cidade.
+    \end{solution}
+
+
+  \question[2\half]
+    Seu novo gerente na ACME\circledR{} (o anterior foi demitido depois do
+    fiasco do reservatório de água!) te encarregou de fazer um mapeamento de
+    {\bf cobertura de nuvens} na região do Estádio Urbano Caldeira.
+    (Provavelmente para melhor planejar as datas dos jogos em relação a
+    probabilidade de chuvas.) Porém, ele contratou um serviço de imagens de
+    satélite sem te consultar!  Para sua surpresa, seu gerente achou apropriado
+    economizar e comprar apenas as imagens do canal de {\bf Vapor d'água}.
+
+    Crie {\bf argumentos} para convencer seu gerente que será impossível
+    realizar o mapeamento das chuvas com esse recurso e elabore um plano
+    {\bf alternativo} que seja similarmente econômico.
+
+    \begin{solution}
+      Vapor d'água não traz informações sobre nuvens!  Mas sim informações
+      da circulação atmosférica superior.  Como a finalidade é mapear chuvas o
+      melhor produto seria um radar de micro-ondas.  (também aceitas: Canal
+      Visível e/ou Canal do Infravermelho + Modelos de previsão.)
+    \end{solution}
+
+
+  \question[5]
+    Sabemos que os {\bf Ciclones Tropicais} têm início com as perturbações das
+    ondas de Leste, e crescem se ``alimentando'' da umidade e {\bf calor} dos
+    oceanos tropicas.
+
+    Explique: Porque não é comum a ocorrência de Ciclones Tropicais na costa do
+    {\bf Brasil}?
+
+    \begin{solution}
+      Como dito, os Ciclones Tropicais precisão de calor e umidade para crescer.
+      O Oceano Atlântico Sul é frio na Costa de África devido às ressurgências,
+      costeiras comuns em contornos Leste (onde começam as perturbações de
+      Leste.)
+    \end{solution}
+
+
+  \bonusquestion[5]
+    {\bf Pergunta bônus}.
+
+    A ocorrência de Ciclones Tropicais é rara no Atlântico Sul.  Mas temos um
+    fenômeno similar chamado Ciclone Extra-Tropical que ocorre com relativa
+    frequência preferencialmente no inverno Austral.  Explique de onde vêm a
+    energia para crescimento desse tipo de fenômeno meteorológico.
+
+    ({\bf Atenção}!!! A pergunta bônus será considerada somente se a
+    resposta estiver 100\% correta!)
+
+      \begin{solution}
+        A energia para o crescimento dos CET vêm do gradiente latitudinal de
+        temperatura.
+      \end{solution}
+
+
+
+
+\end{questions}
+\end{document}
